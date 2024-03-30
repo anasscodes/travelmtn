@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+::selection {
+  background-color: #da1c4b;
+  color: white;
+}
+body {
+  background: url(images/airport.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -50px;
+  left: 40%;
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+}
+.form {
+  box-shadow: 0 0 20px #0d0e0e4f;
+  background-color: #00000056;
+  border-radius: 20px;
+  width: 520px;
+  height: 420px;
+  margin: auto;
+  transform: translate(-50%, 50%);
+  top: -10%;
+  left: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  text-align: center;
+}
+h1 {
+  margin-top: 3em;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow: 0 4px 10px #000000;
+}
+.form .f {
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-transform: capitalize;
+  box-shadow: 0 0 20px #ce13704f;
+  background-color: #f8f8f88e;
+  color: #000000;
+}
+.form .f:hover {
+  width: 90%;
+  height: 40px;
+}
+.form .w {
+  border-radius: 20px;
+  text-decoration: none;
+  color: rgb(212, 221, 221);
+  background: rgb(48, 36, 36);
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: 1s;
+  cursor: pointer;
+}
+.form .w:hover {
+  background: #da1c4b;
+  /* box-shadow: 0 0 20px rgb(72, 179, 95); */
+}
+.form .ch {
+  color: rgb(212, 221, 221);
+  font-size: 16px;
+}
+.form .c {
+  border-radius: 40px;
+  text-decoration: none;
+  color: rgb(212, 221, 221);
+  background: rgba(19, 15, 15, 0.63);
+  padding: 10px 50px;
+  font-size: 16px;
+  transition: 1s;
+  cursor: pointer;
+}
+.form .c:hover {
+  background: #960b2e;
+  /* box-shadow: 0 0 20px rgb(72, 179, 95); */
+}
